@@ -54,28 +54,3 @@ SELECT * FROM employee WHERE salary < 2300+10  ;
 SELECT MAX(salary) FROM employee;
 SELECT avg(salary) FROM employee; 
 SELECT COUNT(id) FROM employee; 
-
-CREATE TABLE temp1
-(
-id INT ,
-name varchar(50),
-city varchar(50),
-PRIMARY KEY (id, name)
-); 
-
-CREATE TABLE emp(
-id INT PRIMARY KEY,
-salary INT DEFAULT 25000
-);
-
-
-INSERT INTO emp (id) VALUES (101);
-INSERT INTO emp (id) VALUES (102);
-
-SELECT * FROM emp;
-
-
-
-
-
-
