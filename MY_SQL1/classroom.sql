@@ -12,3 +12,5 @@ INSERT INTO student VALUES(1,"AMAN",26);
 INSERT INTO student VALUES(2,"Shraddha",24);
 
 SELECT * FROM student;
+
+Show databases; 
